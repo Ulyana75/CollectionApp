@@ -10,6 +10,8 @@
 
 **APK-файл для установки: [ссылка](https://drive.google.com/file/d/1saKvzH-xDgVkjbX0y5s2OtNLmEKvhwD5/view?usp=sharing)**
 
+**Сканы карточек взяты с сайта [laststicker.ru](https://www.laststicker.ru/)**
+
 **Скриншоты из приложения.**
 
 | <img src="https://sun9-53.userapi.com/impg/OFYukl34cNm7WZdGjSyxItckkwx5zIjLRLam7A/CFoMHAh4GYY.jpg?size=1051x2160&quality=96&sign=7bfa322251cc4666ba53258a6f127bf6&type=album" width="250">       | <img src="https://sun9-53.userapi.com/impg/If1FOIIH9AUqHEJmBJHn8PikSZLggvXE7ybv9w/B0Hux1Hpr8I.jpg?size=1051x2160&quality=96&sign=75a1f09593ca33624791ad64a3e269d3&type=album" width="250">                | <img src="https://sun9-85.userapi.com/impg/fzow5Po2cNoGJ_K5vOj9VfjDCHcj3-gy2Z0szw/MYFsHW8lFME.jpg?size=1051x2160&quality=96&sign=0764b5e40a541832c40d5193226e3898&type=album" width="250"> |
