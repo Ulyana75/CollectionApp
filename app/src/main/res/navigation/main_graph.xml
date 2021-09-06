@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_graph"
+    app:startDestination="@id/greetingFragment">
+
+    <fragment
+        android:id="@+id/greetingFragment"
+        android:name="com.ulyanaab.collectionsapp2.fragments.GreetingFragment"
+        android:label="fragment_greeting"
+        tools:layout="@layout/fragment_greeting" >
+        <action
+            android:id="@+id/action_greetingFragment_to_severalCollectionsFragment"
+            app:destination="@id/severalCollectionsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/editCollectionFragment"
+        android:name="com.ulyanaab.collectionsapp2.fragments.EditCollectionFragment"
+        android:label="fragment_edit_collection"
+        tools:layout="@layout/fragment_edit_collection" >
+        <action
+            android:id="@+id/action_editCollectionFragment_to_singleCollectionFragment"
+            app:destination="@id/singleCollectionFragment" />
+        <action
+            android:id="@+id/action_editCollectionFragment_to_pagerFragment"
+            app:destination="@id/pagerFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/severalCollectionsFragment"
+        android:name="com.ulyanaab.collectionsapp2.fragments.SeveralCollectionsFragment"
+        android:label="fragment_several_collections"
+        tools:layout="@layout/fragment_several_collections" >
+        <action
+            android:id="@+id/action_severalCollectionsFragment_to_singleCollectionFragment"
+            app:destination="@id/singleCollectionFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/showCollectionFragment"
+        android:name="com.ulyanaab.collectionsapp2.fragments.ShowCollectionFragment"
+        android:label="fragment_show_collection"
+        tools:layout="@layout/fragment_show_collection" >
+        <action
+            android:id="@+id/action_showCollectionFragment_to_pagerFragment"
+            app:destination="@id/pagerFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/singleCollectionFragment"
+        android:name="com.ulyanaab.collectionsapp2.fragments.SingleCollectionFragment"
+        android:label="fragment_single_collection"
+        tools:layout="@layout/fragment_single_collection" >
+        <action
+            android:id="@+id/action_singleCollectionFragment_to_editCollectionFragment"
+            app:destination="@id/editCollectionFragment" />
+        <action
+            android:id="@+id/action_singleCollectionFragment_to_showCollectionFragment"
+            app:destination="@id/showCollectionFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/bigCardFragment"
+        android:name="com.ulyanaab.collectionsapp2.fragments.BigCardFragment"
+        android:label="fragment_big_card"
+        tools:layout="@layout/fragment_big_card" />
+    <fragment
+        android:id="@+id/pagerFragment"
+        android:name="com.ulyanaab.collectionsapp2.fragments.PagerFragment"
+        android:label="fragment_pager"
+        tools:layout="@layout/fragment_pager" >
+        <action
+            android:id="@+id/action_pagerFragment_to_bigCardFragment"
+            app:destination="@id/bigCardFragment" />
+    </fragment>
+</navigation>

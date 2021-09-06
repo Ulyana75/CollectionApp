@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="button_text_size">20sp</dimen>
+    <dimen name="app_small_margin">14dp</dimen>
+    <dimen name="app_small_padding">12dp</dimen>
+    <dimen name="app_padding">16dp</dimen>
+    <dimen name="card_image_width">85dp</dimen>
+    <dimen name="card_image_height">120dp</dimen>
+    <dimen name="app_big_margin">24dp</dimen>
+    <dimen name="app_margin">16dp</dimen>
+
+</resources>

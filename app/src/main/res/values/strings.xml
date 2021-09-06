@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">CollectionsApp2</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="button_my_collection">Моя коллекция</string>
+    <string name="button_whats_not_enough">Чего не хватает</string>
+    <string name="button_edit_collection">Редактировать коллекцию</string>
+    <string name="choose_cards_you_have">Выберите карточки, которые у вас есть</string>
+    <string name="text_choose_all">Выбрать все</string>
+    <string name="save_button_text">Сохранить</string>
+    <string name="text_your_cards">Ваши карточки:</string>
+    <string name="text_not_enough_cards">Этих карточек не хватает в вашей коллекции:</string>
+    <string name="menu_delete_from_list">Удалить из данного списка</string>
+    <string name="greeting_text">Добро пожаловать в приложение для удобного отслеживания Ваших коллекций!\n\nДля начала работы с приложением, откройте выдвижное меню на панели инструментов (левый верхний угол) и затем выберите интересующую Вас коллекцию.\n\nПриятного использования!</string>
+    <string name="collection_done">Вы собрали коллекцию!</string>
+    <string name="text_delete">Удалить из этого списка</string>
+    <string name="default_title">Коллекционер</string>
+</resources>

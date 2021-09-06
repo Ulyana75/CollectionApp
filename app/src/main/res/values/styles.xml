@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="button_about_collection">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">@dimen/app_small_margin</item>
+        <item name="android:clickable">true</item>
+        <item name="android:focusable">true</item>
+        <item name="android:background">@drawable/ripple_effect</item>
+    </style>
+
+    <style name="button_text">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">@dimen/button_text_size</item>
+        <item name="android:padding">@dimen/app_small_padding</item>
+    </style>
+
+    <style name="separator">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1dp</item>
+        <item name="android:background">@color/black</item>
+        <item name="android:layout_marginStart">@dimen/app_small_margin</item>
+        <item name="android:layout_marginEnd">@dimen/app_small_margin</item>
+    </style>
+
+    <style name="collection_main_image">
+        <item name="android:layout_width">150dp</item>
+        <item name="android:layout_height">216dp</item>
+        <item name="android:scaleType">centerCrop</item>
+        <item name="android:layout_marginStart">20dp</item>
+        <item name="android:layout_marginTop">20dp</item>
+        <item name="android:layout_marginEnd">20dp</item>
+    </style>
+
+</resources>
